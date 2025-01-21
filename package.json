@@ -1,0 +1,17 @@
+{
+  "name": "zenn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "preview": "bunx zenn preview",
+    "new": "bunx zenn new:article"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "zenn-cli": "^0.1.158"
+  }
+}
