@@ -1,0 +1,11 @@
+pre-commit:
+  parallel: true
+  jobs:
+    - name: textlint
+      run: bunx textlint "{staged_files}"
+      glob: "articles/*.{md}"
+
+    - name: markdownlint
+      run: bunx markdownlint-cli2 "{staged_files}"
+      glob: "articles/*.{md}"
+

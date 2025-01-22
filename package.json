@@ -4,7 +4,11 @@
   "main": "index.js",
   "scripts": {
     "preview": "bunx zenn preview",
-    "new": "bunx zenn new:article"
+    "new": "bunx zenn new:article",
+    "format:md": "bunx markdownlint-cli2 articles/*.md --fix",
+    "format:text": "bunx textlint --fix articles/*.md",
+    "lint:md": "bunx markdownlint-cli2 articles/*.md",
+    "lint:text": "bunx textlint articles/*.md"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +17,11 @@
   "description": "",
   "dependencies": {
     "zenn-cli": "^0.1.158"
+  },
+  "devDependencies": {
+    "lefthook": "^1.10.10",
+    "markdownlint-cli2": "^0.17.2",
+    "textlint": "^14.4.2",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2"
   }
 }
