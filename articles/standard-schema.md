@@ -21,7 +21,8 @@ published: true
 - スキーマライブラリでの準拠方法
 
 :::message
-本記事は基本的にはReadmeの翻訳記事となります。
+
+本記事はReadmeの雑目なまとめ記事です。
 より詳細を知りたい方は[こちら](https://github.com/standard-schema/standard-schema)をご確認ください。
 
 :::
