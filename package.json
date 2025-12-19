@@ -16,7 +16,7 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
-    "zenn-cli": "^0.1.158"
+    "zenn-cli": "^0.2.11"
   },
   "devDependencies": {
     "lefthook": "^1.10.10",
